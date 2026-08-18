@@ -228,7 +228,7 @@ footer{border-top:1px solid var(--line);padding:38px 0;text-align:center;color:v
 
     <div class="stats">
       <div class="stat"><b>8</b><span>참여 서버</span></div>
-      <div class="stat"><b>70+</b><span>구현 기능</span></div>
+      <div class="stat"><b>80+</b><span>구현 기능</span></div>
       <div class="stat"><b>9</b><span>미니게임</span></div>
       <div class="stat"><b>2</b><span>개발 크레딧 등재</span></div>
     </div>
@@ -295,7 +295,7 @@ footer{border-top:1px solid var(--line);padding:38px 0;text-align:center;color:v
       <div class="sk"><span class="ico">🛒</span><h4>경제 · 상점 시스템</h4><p>구매/판매 상점, 랜덤 상자, 복권, 후원 연동 등 서버 경제 순환 구조를 설계했습니다.</p></div>
       <div class="sk"><span class="ico">🎮</span><h4>미니게임 개발</h4><p>백룸, 줄다리기, 화살피구, 겉날개 레이싱, 던전 디펜스, 사다리, 눈치게임, 보스 패턴, 상자 털기 등 9종.</p></div>
       <div class="sk"><span class="ico">🖥️</span><h4>인벤토리 UI</h4><p>메뉴/능력치/스킬 무기/워프창 등 GUI 기반 인터페이스를 서버마다 커스텀 구현했습니다.</p></div>
-      <div class="sk"><span class="ico">📊</span><h4>랭킹 · 데이터</h4><p>광물 랭킹, 길드 랭킹, 도감, 칭호 등 누적 데이터 기반 시스템을 구축했습니다.</p></div>
+      <div class="sk"><span class="ico">📊</span><h4>랭킹 · 데이터</h4><p>광물 랭킹, 길드 랭킹, 도감, 칭호, 우편함 등 누적 데이터 기반 시스템을 구축했습니다.</p></div>
       <div class="sk"><span class="ico">🌐</span><h4>API 연동</h4><p>후원 API 목록 처리 및 외부 연동 기능을 개발했습니다.</p></div>
       <div class="sk"><span class="ico">🗺️</span><h4>월드 · 워프</h4><p>층별 워프, 워프 포탈, 캠프파이어 위치 저장, 청크 구매 등 공간 시스템을 담당했습니다.</p></div>
       <div class="sk"><span class="ico">🚀</span><h4>커스텀 런처</h4><p>서버 전용 런처를 직접 개발해 리소스 배포와 접속 환경을 통합 관리했습니다. (4개 서버 적용)</p></div>
@@ -338,31 +338,31 @@ const projects = [
     name:"두아온", sub:"DUA ONLINE (DAO)", status:"done",
     desc:"길드 시스템과 성장형 트레이닝 컨텐츠를 중심으로 개발했습니다.",
     c1:"#38bdf8", c2:"#22d3ee",
-    feats:["상점","층 별 워프","캠프파이어 (층 위치 저장)","길드","길드 랭킹","길드 도감","펀치 마스터","근성 트레이닝","메뉴 UI","저점 복권"]
+    feats:["상점","층 별 워프","캠프파이어 (층 위치 저장)","길드","길드 랭킹","길드 도감","펀치 마스터","근성 트레이닝","메뉴 UI","저점 복권","우편함"]
   },
   {
     name:"털즈란 내수용 서버", sub:"INTERNAL SERVER", status:"done",
     desc:"내부 운영용 서버. 관리 기능과 미니게임 컨텐츠를 함께 구현했습니다.",
     c1:"#fbbf24", c2:"#f97316",
-    feats:["감옥","상점","칭호","API 목록","미니게임 (보스 패턴/상자 털기)","랜덤 상자","도감","커스텀 런처"]
+    feats:["감옥","상점","칭호","API 목록","미니게임 (보스 패턴/상자 털기)","랜덤 상자","도감","커스텀 런처","우편함"]
   },
   {
     name:"냥이아 서버", sub:"NYANGIA SERVER", status:"done",
     desc:"캐주얼 미니게임과 수집형 컨텐츠 위주로 구성한 서버입니다.",
     c1:"#fb7185", c2:"#f472b6",
-    feats:["감옥","상점","칭호","사다리 게임","눈치게임","랜덤 상자","청크 구매 기능","다이아 제출","도감","커스텀 런처"]
+    feats:["감옥","상점","칭호","사다리 게임","눈치게임","랜덤 상자","청크 구매 기능","다이아 제출","도감","커스텀 런처","우편함"]
   },
   {
     name:"다뿌서버 1", sub:"DAPPU SERVER 1", status:"done",
     desc:"증강·인챈트 강화 성장 구조와 미니게임 컨텐츠를 구현했습니다.",
     c1:"#4ade80", c2:"#14b8a6",
-    feats:["UI","상점","증강","미니게임 (백룸/줄다리기/화살피구)","인챈트 강화","API 목록","칭호","청크 구매 기능","커스텀 런처"]
+    feats:["UI","상점","증강","미니게임 (백룸/줄다리기/화살피구)","인챈트 강화","API 목록","칭호","청크 구매 기능","커스텀 런처","우편함"]
   },
   {
     name:"다뿌서버 2", sub:"DAPPU SERVER 2", status:"wip",
     desc:"다뿌서버 1의 시스템을 확장 개편 중인 진행형 프로젝트입니다.",
     c1:"#818cf8", c2:"#c084fc",
-    feats:["UI","상점","워프창","증강","미니게임 (백룸/줄다리기/화살피구/겉날개 레이싱/던전 디펜스)","인챈트 강화","API 목록","칭호","청크 구매 기능","커스텀 런처"]
+    feats:["UI","상점","워프창","증강","미니게임 (백룸/줄다리기/화살피구/겉날개 레이싱/던전 디펜스)","인챈트 강화","API 목록","칭호","청크 구매 기능","커스텀 런처","우편함"]
   }
 ];
 
