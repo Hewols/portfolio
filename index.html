@@ -138,7 +138,8 @@ section{position:relative;z-index:1;padding:76px 0}
 }
 .chip.done{color:var(--ac);border-color:rgba(110,231,183,.3);background:rgba(110,231,183,.08)}
 .chip.wip{color:#fbbf24;border-color:rgba(251,191,36,.3);background:rgba(251,191,36,.08)}
-.chip.wip::before{content:"● ";font-size:8px;vertical-align:middle;animation:pulse 1.6s infinite;display:inline-block}
+.chip.wip{display:inline-flex;align-items:center;gap:6px}
+.chip.wip::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;animation:pulse 1.6s infinite;flex-shrink:0}
 
 .c-desc{color:var(--tx-dim);font-size:14px;margin:14px 0 18px;min-height:42px}
 
